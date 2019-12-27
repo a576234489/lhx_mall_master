@@ -1,0 +1,12 @@
+GET http://localhost:8010/test/http
+
+<> 2019-12-24T024801.400.json
+
+###
+
+GET http://localhost:8010/test/http
+
+<> 2019-12-24T024339.400.json
+
+###
+

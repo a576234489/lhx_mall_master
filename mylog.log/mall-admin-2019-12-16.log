@@ -1,0 +1,250 @@
+2019-12-16 14:34:26.690  INFO 812 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 812 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 14:34:26.692 DEBUG 812 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 14:34:26.693  INFO 812 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 14:34:27.962  WARN 812 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lhx.mall]' package. Please check your configuration.
+2019-12-16 14:34:28.594  INFO 812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cbef8d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:34:29.043  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 14:34:29.061  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 14:34:29.061  INFO 812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 14:34:29.066  INFO 812 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 14:34:29.197  INFO 812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 14:34:29.197  INFO 812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2471 ms
+2019-12-16 14:34:29.431  INFO 812 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 14:34:29.884  INFO 812 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 14:34:30.347  INFO 812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-16 14:34:31.666  INFO 812 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c4b9d48b-9b96-43c8-ac04-c39a080481e3
+
+2019-12-16 14:34:31.774  INFO 812 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50110971, org.springframework.security.web.context.SecurityContextPersistenceFilter@78b7f805, org.springframework.security.web.header.HeaderWriterFilter@64b018f3, org.springframework.security.web.csrf.CsrfFilter@cde8c6c, org.springframework.security.web.authentication.logout.LogoutFilter@5ae15, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@feb098f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@e9474f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17d2b075, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@776015fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5809fa26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12d2ddde, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6661d8c0, org.springframework.security.web.session.SessionManagementFilter@581b1c08, org.springframework.security.web.access.ExceptionTranslationFilter@125d47c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c6a5192]
+2019-12-16 14:34:31.812  INFO 812 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-16 14:34:31.916  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-16 14:34:31.919  INFO 812 --- [main] com.lhx.mall.LhxMallAdminApplication     : Started LhxMallAdminApplication in 6.412 seconds (JVM running for 8.196)
+2019-12-16 14:34:32.460  INFO 812 --- [RMI TCP Connection(5)-169.254.229.63] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-16 14:34:32.461  INFO 812 --- [RMI TCP Connection(5)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-16 14:34:32.535  INFO 812 --- [RMI TCP Connection(5)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Completed initialization in 74 ms
+2019-12-16 14:37:00.611  INFO 10840 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 10840 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 14:37:00.614 DEBUG 10840 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 14:37:00.614  INFO 10840 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 14:37:01.374  WARN 10840 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lhx.mall]' package. Please check your configuration.
+2019-12-16 14:37:01.790  INFO 10840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb5bb5e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:37:02.055  INFO 10840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 14:37:02.075  INFO 10840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 14:37:02.076  INFO 10840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 14:37:02.081  INFO 10840 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 14:37:02.192  INFO 10840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 14:37:02.192  INFO 10840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1547 ms
+2019-12-16 14:37:02.423  INFO 10840 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 14:37:02.719  INFO 10840 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 14:37:03.069  INFO 10840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-16 14:37:04.182  INFO 10840 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-16 14:37:04.254  INFO 10840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-16 14:37:04.257  INFO 10840 --- [main] com.lhx.mall.LhxMallAdminApplication     : Started LhxMallAdminApplication in 4.232 seconds (JVM running for 5.229)
+2019-12-16 14:37:04.894  INFO 10840 --- [RMI TCP Connection(2)-169.254.229.63] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-16 14:37:04.895  INFO 10840 --- [RMI TCP Connection(2)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-16 14:37:04.901  INFO 10840 --- [RMI TCP Connection(2)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-16 14:57:44.012  INFO 10872 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 10872 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 14:57:44.014 DEBUG 10872 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 14:57:44.015  INFO 10872 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 14:57:44.828  WARN 10872 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lhx.mall]' package. Please check your configuration.
+2019-12-16 14:57:45.198  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$173ab992] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.281  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$afe881cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.288  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.291  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@468be356' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.292  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d4bd247e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.295  INFO 10872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 14:57:45.535  INFO 10872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 14:57:45.553  INFO 10872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 14:57:45.553  INFO 10872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 14:57:45.558  INFO 10872 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 14:57:45.656  INFO 10872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 14:57:45.657  INFO 10872 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1611 ms
+2019-12-16 14:57:45.879  INFO 10872 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 14:57:46.153  INFO 10872 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 14:57:46.349 ERROR 10872 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'umsAdminServiceImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lhx.mall.mapper.UmsAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-12-16 14:57:46.366  INFO 10872 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-16 14:57:46.404  WARN 10872 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-810593327] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2443)
+2019-12-16 14:57:46.405  WARN 10872 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-810593327] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2540)
+2019-12-16 14:57:46.406  WARN 10872 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-12-16 14:57:46.409  INFO 10872 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-16 14:57:46.420  INFO 10872 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-16 14:57:46.758 ERROR 10872 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field adminMapper in com.lhx.mall.service.impl.UmsAdminServiceImpl required a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' in your configuration.
+
+2019-12-16 15:06:15.221  INFO 6812 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 6812 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 15:06:15.223 DEBUG 6812 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 15:06:15.223  INFO 6812 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 15:06:15.986  WARN 6812 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lhx.mall]' package. Please check your configuration.
+2019-12-16 15:06:16.374  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c5567545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.405  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5e043d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.410  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.411  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4ba380c7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.414  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$82d8e031] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.416  INFO 6812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:06:16.663  INFO 6812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 15:06:16.681  INFO 6812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 15:06:16.681  INFO 6812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 15:06:16.687  INFO 6812 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 15:06:16.788  INFO 6812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 15:06:16.789  INFO 6812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1535 ms
+2019-12-16 15:06:17.021  INFO 6812 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 15:06:17.335  INFO 6812 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 15:06:17.536 ERROR 6812 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'umsAdminServiceImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lhx.mall.mapper.UmsAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-12-16 15:06:17.555  INFO 6812 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-16 15:06:17.558  WARN 6812 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1824327284] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2443)
+2019-12-16 15:06:17.558  WARN 6812 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1824327284] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2540)
+2019-12-16 15:06:17.559  WARN 6812 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-12-16 15:06:17.562  INFO 6812 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-16 15:06:17.573  INFO 6812 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-16 15:06:17.714 ERROR 6812 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field adminMapper in com.lhx.mall.service.impl.UmsAdminServiceImpl required a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' in your configuration.
+
+2019-12-16 15:14:59.697  INFO 9608 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 9608 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 15:14:59.699 DEBUG 9608 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 15:14:59.700  INFO 9608 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 15:15:00.539  WARN 9608 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lhx.mall]' package. Please check your configuration.
+2019-12-16 15:15:00.911  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28d851fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:00.943  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c1861a34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:00.948  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:00.950  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@29629fbb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:00.951  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e65abce6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:00.953  INFO 9608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:15:01.235  INFO 9608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 15:15:01.254  INFO 9608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 15:15:01.254  INFO 9608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 15:15:01.260  INFO 9608 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 15:15:01.362  INFO 9608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 15:15:01.363  INFO 9608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1632 ms
+2019-12-16 15:15:01.596  INFO 9608 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 15:15:01.872  INFO 9608 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 15:15:02.072 ERROR 9608 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'umsAdminServiceImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lhx.mall.mapper.UmsAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-12-16 15:15:02.091  INFO 9608 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-16 15:15:02.094  WARN 9608 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1961232715] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2443)
+2019-12-16 15:15:02.095  WARN 9608 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1961232715] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2540)
+2019-12-16 15:15:02.096  WARN 9608 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-12-16 15:15:02.099  INFO 9608 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-16 15:15:02.110  INFO 9608 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-16 15:15:02.251 ERROR 9608 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field adminMapper in com.lhx.mall.service.impl.UmsAdminServiceImpl required a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lhx.mall.mapper.UmsAdminMapper' in your configuration.
+
+2019-12-16 15:19:45.983  INFO 7252 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 7252 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 15:19:45.986 DEBUG 7252 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 15:19:45.986  INFO 7252 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 15:19:47.367  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1622ebfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.373  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.375  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@58af5076' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.378  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$3af78eac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.381  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.395  INFO 7252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d7523c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:19:47.728  INFO 7252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 15:19:47.751  INFO 7252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 15:19:47.751  INFO 7252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 15:19:47.757  INFO 7252 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 15:19:47.960  INFO 7252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 15:19:47.961  INFO 7252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1940 ms
+2019-12-16 15:19:48.161  INFO 7252 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 15:19:48.495  INFO 7252 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 15:19:49.771 DEBUG 7252 --- [main] c.l.m.c.JwtAuthenticationTokenFilter     : Filter 'jwtAuthenticationTokenFilter' configured for use
+2019-12-16 15:19:49.953  INFO 7252 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@295b07e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d913116, org.springframework.security.web.header.HeaderWriterFilter@2cea921a, org.springframework.security.web.authentication.logout.LogoutFilter@50df37eb, com.lhx.mall.component.JwtAuthenticationTokenFilter@577bfadb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41582899, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@520a95ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55053f81, org.springframework.security.web.session.SessionManagementFilter@6c27e700, org.springframework.security.web.access.ExceptionTranslationFilter@e881e46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1be8c122]
+2019-12-16 15:19:50.139  INFO 7252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-16 15:19:50.524  INFO 7252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-16 15:19:50.662  INFO 7252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-16 15:19:50.665  INFO 7252 --- [main] com.lhx.mall.LhxMallAdminApplication     : Started LhxMallAdminApplication in 5.468 seconds (JVM running for 6.324)
+2019-12-16 15:19:51.301  INFO 7252 --- [RMI TCP Connection(2)-169.254.229.63] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-16 15:19:51.302  INFO 7252 --- [RMI TCP Connection(2)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-16 15:19:51.315  INFO 7252 --- [RMI TCP Connection(2)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-12-16 15:21:41.265  INFO 5628 --- [main] com.lhx.mall.LhxMallAdminApplication     : Starting LhxMallAdminApplication on 3EDTTB4DCSUTE0F with PID 5628 (E:\software\mall\lhx_mall_master\lhx_mall_admin\target\classes started by Administrator in E:\software\mall\lhx_mall_master)
+2019-12-16 15:21:41.268 DEBUG 5628 --- [main] com.lhx.mall.LhxMallAdminApplication     : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-16 15:21:41.268  INFO 5628 --- [main] com.lhx.mall.LhxMallAdminApplication     : The following profiles are active: dev
+2019-12-16 15:21:42.605  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$24b40e63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.610  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.613  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@479b5066' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.617  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$4988b115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.619  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.635  INFO 5628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c064629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-16 15:21:42.944  INFO 5628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-16 15:21:42.963  INFO 5628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-16 15:21:42.964  INFO 5628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-16 15:21:42.970  INFO 5628 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\xsheel\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\ ;E:\software\jdk8\bin;E:\software\jdk8\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\maven\apache-maven-3.5.4\bin;E:\software\erlang\erl7.1\bin;E:\software\totoSvn\bin;E:\software\svnServer\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Windows\System32\art_enlistment.jar;E:\software\filddler\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-16 15:21:43.164  INFO 5628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-16 15:21:43.164  INFO 5628 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1852 ms
+2019-12-16 15:21:43.354  INFO 5628 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-16 15:21:43.657  INFO 5628 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-16 15:21:44.821 DEBUG 5628 --- [main] c.l.m.c.JwtAuthenticationTokenFilter     : Filter 'jwtAuthenticationTokenFilter' configured for use
+2019-12-16 15:21:44.991  INFO 5628 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43a7203e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f24ce45, org.springframework.security.web.header.HeaderWriterFilter@fcd0e8d, org.springframework.security.web.authentication.logout.LogoutFilter@30afb481, com.lhx.mall.component.JwtAuthenticationTokenFilter@3f3c8b60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@657b3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6dece1f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c678c7b, org.springframework.security.web.session.SessionManagementFilter@5c9a4f3b, org.springframework.security.web.access.ExceptionTranslationFilter@655621fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d001fbe]
+2019-12-16 15:21:45.172  INFO 5628 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-16 15:21:45.513  INFO 5628 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-16 15:21:45.645  INFO 5628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-16 15:21:45.648  INFO 5628 --- [main] com.lhx.mall.LhxMallAdminApplication     : Started LhxMallAdminApplication in 5.195 seconds (JVM running for 5.988)
+2019-12-16 15:21:45.769  INFO 5628 --- [RMI TCP Connection(1)-169.254.229.63] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-16 15:21:45.770  INFO 5628 --- [RMI TCP Connection(1)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-16 15:21:45.779  INFO 5628 --- [RMI TCP Connection(1)-169.254.229.63] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-12-24T06:43:39.182+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required String parameter 'userId' is not present",
+  "path": "/test/http"
+}
